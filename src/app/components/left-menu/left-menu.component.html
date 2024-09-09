@@ -1,0 +1,23 @@
+<div class="left-menu" [hidden]="visibility">
+  <ul>
+    <li class="m-3" *ngFor="let item of itens" style="list-style: none">
+      <a
+        routerLink="{{ item.routerLink }}"
+        style="text-decoration: none; color: #fff"
+        >{{ item.label }}</a
+      >
+    </li>
+    <!-- <li class="aventura">
+      <a routerLink="aventura">Aventura</a>
+    </li>
+    <li class="corrida">
+      <a routerLink="corrida">Corrida</a>
+    </li>
+    <li class="esporte">
+      <a routerLink="esporte">Esporte</a>
+    </li>
+    <li class="rpg">
+      <a routerLink="rpg">RPG</a>
+    </li> -->
+  </ul>
+</div>
